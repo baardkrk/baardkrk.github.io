@@ -87,3 +87,16 @@ footer {
     color: #5E5E5E;
     
 }
+.maths {
+    overflow: auto;
+    background-color: #FFF8FE;
+    padding: 10px;
+}
+.MJXc-display {
+    padding: 10px !important;
+    border: none !important;
+    border-radius: 5px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    /*background-color: #FFF8FE;*/
+}
