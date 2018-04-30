@@ -88,12 +88,12 @@ footer {
     
 }
 .maths {
-    overflow: scroll;
+    overflow: auto;
     background-color: #FFF8FE;
     padding: 10px;
 }
-/*.mjx-chtml {
-    overflow: scroll;
+.MJXc-display {
+    overflow: auto;
     background-color: #FFF8FE;
     padding: 10px;
-}*/
+}
