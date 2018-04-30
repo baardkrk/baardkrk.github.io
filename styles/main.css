@@ -93,6 +93,9 @@ footer {
     padding: 10px;
 }
 .MJXc-display {
+    padding: 10px;
+    border: none !important;
+    border-radius: 5px;
     overflow-y: hidden;
     overflow-x: auto;
     background-color: #FFF8FE;
