@@ -88,5 +88,7 @@ footer {
     
 }
 .maths {
+    background-color: #FFF8DC;
+    width:100%;
     overflow: scroll;
 }
