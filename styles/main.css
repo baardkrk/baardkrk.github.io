@@ -93,6 +93,7 @@ footer {
     padding: 10px;
 }
 .MJXc-display {
-    overflow-y: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
     background-color: #FFF8FE;
 }
