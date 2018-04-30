@@ -9,6 +9,7 @@ pre.prettyprint {
     border-radius: 5px;
     padding: 1em 2em !important; 
     font-family: monospace;
+    overflow: scroll;
 }
 /*pre .nocode { background-color: none; color: #000000 }*/
 pre .str { color: #DF0000 } /* string  - pink */
