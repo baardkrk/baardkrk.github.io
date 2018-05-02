@@ -21,7 +21,6 @@
     <script src="scripts/menu-behavior.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-
     </script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -67,9 +66,11 @@
         <div class="text-content">
             <h3>Maths</h3>
             <p>Neural networks are basically a math function.</p>
-            \[ \begin{split} a &= \sum^{16}_{N=0}\frac{1}{N^2} + \int_{-\infty}^{\infty}\frac{N}{x} \mathrm{d} x \\ a\frac{\partial^2y}{\partial^2x}+b\frac{\partial
-            y}{\partial x}+c &= \nabla f(x) \end{split} \]
-
+		<div class="maths">
+			
+            	\[ \begin{split} a &= \sum^{16}_{N=0}\frac{1}{N^2} + \int_{-\infty}^{\infty}\frac{N}{x} \mathrm{d} x \\ a\frac{\partial^2y}{\partial^2x}+b\frac{\partialy}{\partial x}+c &= \nabla f(x) \end{split} \]
+			
+		</div>
             <h2>Coding</h2>
             <p>OK, here all the way at the bottom, I wanted to try to incorporate some code.</p>
             <hr>
@@ -89,7 +90,7 @@ using namespace std;
 
 int main (int argc, char *argv[]) {
     /* Let's throw in a comment as well! */
-    /* However, this needs some work to be scrollable on mobile devices. */
+    /* However, this needs some work to be scrollable on mobile devices. But, what if the line is sooo looong that it requires scrolling on normal screens as well? Will it still scroll?*/
 
     cout &lt&lt "Hello, World!" &lt&lt endl;
     return 0;
