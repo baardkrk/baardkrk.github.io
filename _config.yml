@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+title: Baards Homepage
+description: Just a place to stash notes
+
+makrdown: kramdown
