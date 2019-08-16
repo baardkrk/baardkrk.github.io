@@ -1,28 +1,32 @@
-title:            Zebra
-description:      A zebra does not change its spots
-url:              http://ngoctran.me/zebra/
-signoff:          Ngoc Tran
+# Permalinks
+permalink:           pretty
 
-links:
-  - name:         Home
-    url:          /
-  - name:         Sample Page
-    url:          /sample-page
+# Setup
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
 
-permalink:        pretty
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  input:          GFM
-  syntax_highlighter: rouge
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
-  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
-  # span, block element options fall back to global
-  syntax_highlighter_opts:
-    # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: 'highlight'
-    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
