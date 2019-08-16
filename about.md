@@ -1,6 +1,6 @@
 ---
-layout: post
-title: about
+layout: page
+title: About
 ---
 About
 ======
