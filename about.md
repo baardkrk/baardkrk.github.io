@@ -13,8 +13,5 @@ You can find the source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
-$$
-\[
-\frac{\diff}{\diff x}\sum^{N}_{i,j = 0} a_{i} - b_{j}
-\]
-$$
+$$ \[ \frac{\diff}{\diff x}\sum^{N}_{i,j = 0} a_{i} - b_{j} \] $$
+$$ \[ \begin{split} a &= \sum^{16}_{N=0}\frac{1}{N^2} + \int_{-\infty}^{\infty}\frac{N}{x} \mathrm{d} x \\ a\frac{\partial^2y}{\partial^2x}+b\frac{\partialy}{\partial x}+c &= \nabla f(x) \end{split} \] $$
