@@ -28,7 +28,7 @@
       <guid>http://baardkrk.github.io/posts/my-first-post/</guid>
       <description>Here&amp;rsquo;s my first post on this site, built with Hugo. This is where I&amp;rsquo;ll collect my notes on all kinds of topics! I hope to be able to share all my different interests, such as
  Programming Security Photography Robotics Karate Architecture FPGAs and Electronics  The site structure will have to come later.. It would also be interesting to see how tables look:
-   A B A xor B     0 0 0   0 1 1   1 0 1   1 1 0    And later, we&amp;rsquo;ll have to check out if we can activate KaTeX!</description>
+   A B A xor B     0 0 0   0 1 1   1 0 1   1 1 0    Also, I forked the m10c theme, because just adding the submodule apparently wasn&amp;rsquo;t enough for github.</description>
     </item>
     
   </channel>
