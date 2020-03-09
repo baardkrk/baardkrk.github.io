@@ -131,6 +131,30 @@ It would also be interesting to see how tables look:</p>
 </table>
 <p>Also, I forked the m10c theme, because just adding the submodule apparently wasn&rsquo;t enough for github. Hope this works..
 And later, we&rsquo;ll have to check out if we can activate KaTeX!</p>
+<p>In addition, we&rsquo;ll test out the other markdown features, such as <a href="http://threevirtues.com/">quotes</a>:</p>
+<blockquote>
+<p>There are three great virtues of a programmer; Laziness, Impatience and Hubris<br>
+<em>&ndash; Larry Wall, original author of Perl</em></p>
+</blockquote>
+<p>Numbered Lists:</p>
+<ol>
+<li>
+<p><strong>Laziness</strong><br>
+The quality that makes you go to great effort to reduce overall energy expenditure. It makes you
+write labor-saving programs that other people eill find useful and document what you wrote so you
+don&rsquo;t have to answer so many questions about it.</p>
+</li>
+<li>
+<p><strong>Impatience</strong><br>
+The anger you feel when the computer is being lazy. This makes you write programs that don&rsquo;t just
+react to your needs, but actually anticipate them. Or at least pretend to.</p>
+</li>
+<li>
+<p><strong>Hubris</strong><br>
+The quality that makes you write (and maintain) programs that other people won&rsquo;t say bad things
+about.</p>
+</li>
+</ol>
 <hr>
 <h3 id="hugo-usage">Hugo usage</h3>
 <p>Before I forget, I think I should write down how to use the Hugo framework.
@@ -140,6 +164,8 @@ $ hugo new posts/&lt;NEW POST NAME&gt;
 ... &lt;WRITE POST&gt;
 $ ./deploy.sh
 </code></pre><p>Should do everything from updating the current repository, as well as updating the GitHub page.</p>
+<p>To update the theme, you just add it as a submodule to the project (unless already done) and change it.
+However, it is very important to have the <em>extended</em> version of hugo to build this theme.</p>
 <hr>
 <p>Also, just for fun, let&rsquo;s see how hugo handles syntax highlighting in code</p>
 <h4 id="cc">C/C++</h4>
